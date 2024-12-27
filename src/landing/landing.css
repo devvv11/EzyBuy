@@ -1,0 +1,73 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Head{
+    background-color: rgba(0, 0, 0, 0.468);
+    /* border-bottom: 2px solid rgb(253, 251, 251); */
+    color : rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+}
+.Head h2{
+    margin-left: 10px;
+}
+.Btn{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    transition: 0.8s ease-in-out;
+    font-weight: 900;
+    width: 60px;
+    border-radius: 5px;
+   
+}
+.Btn:hover{
+    background-color: black;
+    color: aliceblue; 
+}
+.content-2{
+        color: rgb(253, 252, 252);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 450px;
+        /* background-image: url('banner.jpg'); */
+        /* background-color: black; */
+        width: 100%;
+}
+.content-2  h1{
+    font-size: 70px;
+}
+.content-2 p{
+    margin-top: -40px;
+    font-weight:600;
+}
+.foot{
+    height: 300px;
+    background-color: #242424;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    justify-items: center;
+    align-content: space-between;
+    align-content: center;
+}
+.foot-2{
+    text-align: center;
+    background-color: #242424;
+    position: absolute;
+    width: 98.7%;
+    color: aliceblue;
+}
+.profileimage{
+        height: fit-content;
+        width: 140px;
+}
