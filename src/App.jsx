@@ -1,26 +1,30 @@
 import Landing from "./landing/Landing";
-import Login from "./Login/Login";
+ import Login from "./Login/Login";
 import Reg from "./registration/Reg";
-import { createBrowserRouter , RouterProvider } from 'react-router-dom';
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App(){
+
   const router = createBrowserRouter([
     {
-      path : '/',
-      element: <Landing />
+      path: "/",
+      element: <Landing/>
     },
     {
-      path : '/Login',
-      element: <Login />
+      path: "/login",
+      element: <Login/>
     },
     {
-      path : '/reg',
-      element:< Reg />
-    }
+      path: "/register",
+      element: <Reg/>
+    },
   ])
-  return(
-    < RouterProvider router={router} />
-  );
+return(
+  <>
+  <RouterProvider router={router} />
+  </>
+)
 }
 
 export default App  

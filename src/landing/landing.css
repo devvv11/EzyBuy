@@ -3,7 +3,6 @@ body{
 }
 .Head{
     background-color: rgba(0, 0, 0, 0.468);
-    /* border-bottom: 2px solid rgb(253, 251, 251); */
     color : rgb(255, 255, 255);
     height: 40px;
     width: 100%;
@@ -38,16 +37,16 @@ body{
         justify-content: center;
         flex-direction: column;
         height: 450px;
-        /* background-image: url('banner.jpg'); */
-        /* background-color: black; */
         width: 100%;
 }
 .content-2  h1{
     font-size: 70px;
+  
 }
 .content-2 p{
     margin-top: -40px;
     font-weight:600;
+   
 }
 .foot{
     height: 300px;
