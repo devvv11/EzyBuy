@@ -1,6 +1,7 @@
 import Landing from "./landing/Landing";
  import Login from "./Login/Login";
 import Reg from "./registration/Reg";
+import Home from "./home/home";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -19,6 +20,10 @@ function App(){
       path: "/register",
       element: <Reg/>
     },
+    {
+      path: "/home",
+      element: <Home/>
+      }
   ])
 return(
   <>
